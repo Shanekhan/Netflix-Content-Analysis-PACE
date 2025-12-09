@@ -58,11 +58,10 @@ The project is beginner-friendly and suitable for data enthusiasts, students, or
 ```bash
 git clone https://github.com/yourusername/Netflix-Content-Analysis-PACE.git
 
-## How to Use
+Navigate into the project folder:
 
-1. Navigate into the project folder:
-```bash
 cd Netflix-Content-Analysis-PACE
+
 
 Open the Jupyter Notebook:
 
@@ -71,14 +70,15 @@ jupyter notebook Netflix-Content-Analysis.ipynb
 
 Run all cells to reproduce the analysis and visualizations.
 
-*** Tools & Libraries
+
+
+Tools & Libraries
 
 Python 3.x
 
-pandas
+pandas, numpy
 
-numpy
+matplotlib, seaborn
 
-matplotlib
 
 seaborn
