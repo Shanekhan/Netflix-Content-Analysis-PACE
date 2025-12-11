@@ -1,84 +1,93 @@
-# Netflix Content Analysis (PACE Workflow)
+# Netflix Content Strategy Analysis (PACE Workflow)
 
-## Overview
-This project provides a **comprehensive exploratory data analysis (EDA)** of Netflix content using the **PACE workflow**: Plan → Analyze → Construct → Execute.  
+This project provides a structured exploratory data analysis (EDA) of Netflix content using the PACE framework (Plan → Analyze → Construct → Execute). The goal is to uncover how Netflix designs and distributes its global content library.
 
-It explores:
-- The type of content Netflix releases the most (Movies vs TV Shows)  
-- Genre distribution  
-- Country contributions  
-- Content trends over time  
-- Movie durations and rating distributions  
+## 📌 Scope of the Analysis
+- Movies vs. TV Shows distribution  
+- Genre and country contributions  
+- Annual content trends  
+- Movie duration patterns  
+- Audience rating distributions  
 
-The project is beginner-friendly and suitable for data enthusiasts, students, or analysts interested in streaming content patterns.
+This project is beginner-friendly and ideal for data analysts and students studying streaming-platform content strategy.
 
 ---
 
-## Repository Files
+## 📁 Repository Contents
+
 | File | Description |
 |------|-------------|
-| `netflix_titles.csv` | Dataset containing Netflix movies and TV shows with columns such as `title`, `genre`, `country`, `release_year`, `rating`, `duration`. |
-| `Netflix-Content-Analysis.ipynb` | Jupyter Notebook containing the step-by-step analysis using the PACE workflow. |
-| `Netflix-Content-Analysis.pdf` | PDF version of the notebook for quick reference and sharing. |
+| **netflix_titles.csv** | Original dataset containing Netflix movies and TV shows. |
+| **Netflix-Content-Analysis (1).ipynb** | Full PACE-structured Jupyter Notebook with visualizations and code. |
+| **Unveiling-Netflixs-Content-Strategy.pdf** | Executive Summary containing refined visuals for professional sharing. |
 
 ---
 
-## Key Insights
+## 🔍 Key Strategic Insights
 
-### 1. Dominant Content Type
-- Netflix’s catalog is overwhelmingly composed of **Movies (97%)**, with TV Shows representing only **3%**.  
-- This indicates a strong focus on movie content over serialized shows.
+### **1. Content Type Composition**
+Netflix’s catalog is balanced:  
+- **Movies:** ~70%  
+- **TV Shows:** ~30%  
 
-### 2. Top Genres
-- Most frequently released genres are **International Movies**, **Dramas**, and **Comedies**.  
-- Action & Adventure, Independent Movies, and Romantic Movies also appear frequently.  
-- Netflix aims to cater to global audiences and diverse tastes.
-
-### 3. Top Contributing Countries
-- The **United States, India, and United Kingdom** produce the majority of Netflix content.  
-- This reflects Hollywood dominance and Netflix’s strategy to expand regionally.
-
-### 4. Content Trends Over Time
-- Netflix’s content production grew significantly from **2015 to 2018**, peaking in 2017–2018.  
-- A slight decline after 2019 reflects global production slowdowns.
-
-### 5. Movie Duration Insights
-- Most movies run for **90–120 minutes**, which aligns with typical audience preferences.  
-- Outliers exist with very short or extremely long durations.
-
-### 6. Rating Distribution
-- Majority of titles target **adult and teen audiences** (TV-MA, TV-14, R).  
-- Family-friendly and children’s content is a smaller portion of the library.
+This corrects earlier misinterpretations based on incorrect aggregation. TV shows represent a strategic one-third of the library, supporting subscriber retention.
 
 ---
 
-## How to Use
+### **2. Top Contributing Countries**
+Highest content-producing regions:
+- **United States**
+- **India**
+- **United Kingdom**
 
-1. Clone the repository:
+This confirms Netflix’s dual strategy of Hollywood leadership + aggressive regional expansion.
+
+---
+
+### **3. Leading Genres**
+Most common genres:  
+- **International Movies**  
+- **Dramas**  
+- **Comedies**
+
+The dominance of *International Movies* reflects Netflix’s global, multilingual growth push.
+
+---
+
+### **4. Content Trends Over Time**
+Content growth accelerated sharply after 2015 and peaked around 2019.  
+Post-2019 stabilization indicates a shift from high-volume acquisition to focused, high-quality production.
+
+---
+
+### **5. Movie Duration & Audience Strategy**
+- **Typical Duration:** 90–120 minutes  
+- **Primary Audience:** TV-MA, TV-14, R dominate → clear adult/teen focus.
+
+---
+
+## 🚀 How to Use
+
+Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/Netflix-Content-Analysis-PACE.git
+Navigate into the project directory:
 
-Navigate into the project folder:
-
+bash
+Copy code
 cd Netflix-Content-Analysis-PACE
+Open the Notebook:
 
-
-Open the Jupyter Notebook:
-
-jupyter notebook Netflix-Content-Analysis.ipynb
-
-
+bash
+Copy code
+jupyter notebook "Netflix-Content-Analysis (1).ipynb"
 Run all cells to reproduce the analysis and visualizations.
 
-
-
-Tools & Libraries
-
+🛠 Tools & Libraries
 Python 3.x
 
-pandas, numpy
+pandas, numpy — Data manipulation
 
-matplotlib, seaborn
+matplotlib, seaborn — Visualizations
 
-
-seaborn
